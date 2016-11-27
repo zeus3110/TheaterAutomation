@@ -3,6 +3,7 @@ package com.zeus3110.theater_automation;
 import com.zeus3110.theater_automation.Equipment.IREquipment;
 import com.zeus3110.theater_automation.Equipment.ITach;
 
+// Bed Room Equipment Test
 public class BedRoom {
 
     static ITach ITachBed;
