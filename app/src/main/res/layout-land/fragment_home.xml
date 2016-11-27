@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+    <Button
+        android:text="DMR-BXT870"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeBXT870"
+        android:drawableTop="@drawable/button_bd"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/buttonHomeBZT910"
+        android:layout_alignStart="@+id/textView8"
+        android:minWidth="120dip" />
+
+    <Button
+        android:text="DMR-BZT910"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeBZT910"
+        android:drawableTop="@drawable/button_bd"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/buttonHomeBXT870"
+        android:layout_marginTop="34dp"
+        android:minWidth="120dip" />
+
+    <Button
+        android:text="BD-W500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeW500"
+        android:drawableTop="@drawable/button_bd"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/buttonHomeBXT870"
+        android:layout_alignStart="@+id/buttonHomeBXT870"
+        android:layout_alignEnd="@+id/buttonHomeBZT910"
+        android:minWidth="120dip" />
+
+    <TextView
+        android:text="映像ソース"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="88dp" />
+
+    <TextView
+        android:text="音声ソース"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonHomeBZT910"
+        android:layout_toEndOf="@+id/buttonHomeBXT870"
+        android:layout_marginStart="73dp"
+        android:id="@+id/textView11"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:text="Nexus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeNexusPlayer"
+        android:drawableTop="@drawable/ic_nexus_player"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/buttonHomeW500"
+        android:layout_alignStart="@+id/buttonHomeW500"
+        android:layout_alignEnd="@+id/buttonHomeW500"
+        android:minWidth="120dip" />
+
+    <Button
+        android:text="AMP DLNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeDLNA"
+        android:drawableTop="@drawable/ic_dlna"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="120dip"
+        android:layout_alignBaseline="@+id/buttonHomeBZT910"
+        android:layout_alignBottom="@+id/buttonHomeBZT910"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:text="その他"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_toEndOf="@+id/buttonHomeDLNA"
+        android:layout_marginStart="102dp"
+        android:id="@+id/textView12"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:text="電源OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomePowerOff"
+        android:drawableTop="@android:drawable/ic_lock_power_off"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="120dip"
+        android:layout_alignBaseline="@+id/buttonHomeDLNA"
+        android:layout_alignBottom="@+id/buttonHomeDLNA"
+        android:layout_alignStart="@+id/textView12" />
+
+    <Button
+        android:text="Majik DS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonHomeDS"
+        android:drawableTop="@drawable/ic_dlna"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="120dip"
+        android:layout_below="@+id/buttonHomeDLNA"
+        android:layout_alignStart="@+id/buttonHomeDLNA" />
+
+    <CheckBox
+        android:text="映像Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonHomeNexusPlayer"
+        android:layout_alignStart="@+id/buttonHomeDS"
+        android:id="@+id/checkBoxHomeAudioOff"
+        android:textColor="@color/button_text_color"
+        android:checked="true" />
+</RelativeLayout>

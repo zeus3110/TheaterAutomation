@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:id="@+id/textView"
+        android:focusable="false"
+        android:layout_marginTop="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio"
+        android:id="@+id/Button_Ceol_Power"
+        android:layout_alignBottom="@+id/ButtonSharpBDKey1"
+        android:layout_toRightOf="@+id/ButtonSharpBDKey1"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey1"
+        android:elegantTextHeight="false"
+        android:background="@drawable/button_usual" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:id="@+id/Button_LS700_Power"
+        android:layout_alignBottom="@+id/Button_Ceol_Power"
+        android:layout_toRightOf="@+id/Button_Ceol_Power"
+        android:layout_toEndOf="@+id/Button_Ceol_Power"
+        android:background="@drawable/button_usual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ButtonSharpBDKey1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DLNA"
+        android:id="@+id/Button_Ceol_DLNA"
+        android:layout_alignBottom="@+id/Button_Ceol_AUX"
+        android:layout_toRightOf="@+id/Button_Ceol_AUX"
+        android:layout_toLeftOf="@+id/Button_LS700_Power"
+        android:layout_toStartOf="@+id/Button_LS700_Power"
+        android:background="@drawable/button_usual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lighting"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/Button_Ceol_AUX"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Night"
+        android:id="@+id/Button_SHLight_Night"
+        android:layout_alignBottom="@+id/Button_SHLight_Off"
+        android:layout_toRightOf="@+id/Button_SHLight_Off"
+        android:layout_alignRight="@+id/Button_Ceol_DLNA"
+        android:layout_alignEnd="@+id/Button_Ceol_DLNA"
+        android:background="@drawable/button_usual" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work"
+        android:id="@+id/Button_SHLight_Work"
+        android:layout_alignBottom="@+id/Button_SHLight_Night"
+        android:layout_toRightOf="@+id/Button_SHLight_Night"
+        android:layout_alignRight="@+id/Button_LS700_Power"
+        android:layout_alignEnd="@+id/Button_LS700_Power"
+        android:background="@drawable/button_usual" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relax"
+        android:id="@+id/Button_SHLight_Relax"
+        android:layout_alignBottom="@+id/Button_SHLight_Work"
+        android:layout_toRightOf="@+id/Button_SHLight_Work"
+        android:layout_toEndOf="@+id/Button_SHLight_Work"
+        android:background="@drawable/button_usual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Conditioner"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/Button_SHLight_Off"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cool"
+        android:id="@+id/Button_PanaAir_Cool"
+        android:layout_alignBottom="@+id/Button_PanaAir_Off"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:background="@drawable/button_usual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appli"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/Button_LS700_Power"
+        android:layout_toEndOf="@+id/Button_LS700_Power" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BubbleUPNP"
+        android:id="@+id/Button_BUPNP"
+        android:layout_alignBottom="@+id/Button_Ceol_DLNA"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:background="@drawable/button_usual" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TV"
+            android:id="@+id/ButtonSharpBDKey1"
+            android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUX"
+        android:id="@+id/Button_Ceol_AUX"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:id="@+id/Button_SHLight_Off"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/Button_Ceol_AUX" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:id="@+id/Button_PanaAir_Off"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/Button_SHLight_Off" />
+
+</RelativeLayout>

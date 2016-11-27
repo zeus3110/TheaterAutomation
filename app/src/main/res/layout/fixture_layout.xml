@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset1"
+        android:id="@+id/ButtonPreset1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="135dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset2"
+        android:id="@+id/ButtonPreset2"
+        android:layout_alignBottom="@+id/ButtonPreset1"
+        android:layout_toEndOf="@+id/ButtonPreset1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset3"
+        android:id="@+id/ButtonPreset3"
+        android:layout_alignBottom="@+id/ButtonPreset2"
+        android:layout_toEndOf="@+id/ButtonPreset2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset4"
+        android:id="@+id/ButtonPreset4"
+        android:layout_alignTop="@+id/ButtonPreset3"
+        android:layout_toEndOf="@+id/ButtonPreset3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset5"
+        android:id="@+id/ButtonPreset5"
+        android:layout_below="@+id/ButtonPreset1"
+        android:layout_alignStart="@+id/ButtonPreset1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset6"
+        android:id="@+id/ButtonPreset6"
+        android:layout_alignTop="@+id/ButtonPreset5"
+        android:layout_toStartOf="@+id/ButtonPreset3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset7"
+        android:id="@+id/ButtonPreset7"
+        android:layout_alignTop="@+id/ButtonPreset6"
+        android:layout_toStartOf="@+id/ButtonPreset4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset8"
+        android:id="@+id/ButtonPreset8"
+        android:layout_alignTop="@+id/ButtonPreset7"
+        android:layout_toEndOf="@+id/ButtonPreset7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1ON"
+        android:id="@+id/ButtonR1ON"
+        android:layout_below="@+id/ButtonPreset5"
+        android:layout_alignStart="@+id/ButtonPreset5"
+        android:layout_marginTop="63dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1OFF"
+        android:id="@+id/ButtonR1OFF"
+        android:layout_alignTop="@+id/ButtonR1ON"
+        android:layout_toEndOf="@+id/ButtonR1ON" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:id="@+id/ButtonAllOff"
+        android:layout_below="@+id/ButtonPreset5"
+        android:layout_alignStart="@+id/ButtonPreset5" />
+</RelativeLayout>

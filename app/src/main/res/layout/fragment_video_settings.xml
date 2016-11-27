@@ -1,0 +1,280 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natural"
+        android:id="@+id/button_PJ_PM_Natural"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_Cinema"
+        android:layout_alignStart="@+id/button_PJ_PM_Film" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinema"
+        android:id="@+id/button_PJ_PM_Cinema"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_PJ_PM_Film"
+        android:layout_toEndOf="@+id/button_PJ_PM_Film" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D"
+        android:id="@+id/button_PJ_PM_3D"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_Anime"
+        android:layout_toEndOf="@+id/button_PJ_PM_Cinema" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stage"
+        android:id="@+id/button_PJ_PM_Stage"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_Cinema"
+        android:layout_toEndOf="@+id/button_PJ_PM_Natural" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/button_PJ_CMD1"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_PJ_PM_Anime"
+        android:layout_alignStart="@+id/textView13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/button_PJ_CMD2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_PJ_CMD1"
+        android:layout_alignBottom="@+id/button_PJ_CMD1"
+        android:layout_toEndOf="@+id/button_PJ_CMD1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/button_PJ_CMD3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_PJ_CMD2"
+        android:layout_alignBottom="@+id/button_PJ_CMD2"
+        android:layout_toEndOf="@+id/button_PJ_CMD2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/button_PJ_CMD4"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_CMD1"
+        android:layout_alignStart="@+id/button_PJ_CMD1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film"
+        android:id="@+id/button_PJ_CMDFilm"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_CMD2"
+        android:layout_toEndOf="@+id/button_PJ_CMD4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:id="@+id/button_PJ_CMDOff"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_CMD3"
+        android:layout_toEndOf="@+id/button_PJ_CMDFilm" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User2"
+        android:id="@+id/button_PJ_PM_User2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_PJ_PM_User1"
+        android:layout_toEndOf="@+id/button_PJ_PM_User1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THX"
+        android:id="@+id/button_PJ_PM_THX"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_3D"
+        android:layout_toEndOf="@+id/button_PJ_PM_User2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PIC_NAME"
+        android:id="@+id/textView_PMName"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_marginStart="45dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/button_PJ_PM_Film" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anime"
+        android:id="@+id/button_PJ_PM_Anime"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_PJ_PM_Cinema"
+        android:layout_toEndOf="@+id/button_PJ_PM_Cinema" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User1"
+        android:id="@+id/button_PJ_PM_User1"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_Natural"
+        android:layout_alignStart="@+id/button_PJ_PM_Natural" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="色温度"
+        android:id="@+id/button_PJ_ColorTemp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_PJ_Gamma"
+        android:layout_alignBottom="@+id/button_PJ_Gamma"
+        android:layout_toEndOf="@+id/button_PJ_Gamma" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color\nProfile"
+        android:id="@+id/button_PJ_ColorProfile"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_PJ_ColorTemp"
+        android:layout_toEndOf="@+id/button_PJ_ColorTemp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture Mode"
+        android:id="@+id/textView"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film"
+        android:id="@+id/button_PJ_PM_Film"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView_PMName"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gamma"
+        android:id="@+id/button_PJ_Gamma"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_PJ_PM_User1"
+        android:layout_alignStart="@+id/button_PJ_PM_User1"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C.M.D"
+        android:id="@+id/textView13"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="65dp"
+        android:layout_alignTop="@+id/textView_PMName"
+        android:layout_toEndOf="@+id/button_PJ_PM_Anime" />
+
+</RelativeLayout>

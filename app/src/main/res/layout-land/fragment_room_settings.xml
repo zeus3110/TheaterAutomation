@@ -1,0 +1,271 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湿度"
+        android:id="@+id/textView19"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/button_Light3"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="気温"
+        android:id="@+id/textView17"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_alignTop="@+id/button_Light3"
+        android:layout_alignStart="@+id/textView14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/button_Light2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_Light1"
+        android:layout_toEndOf="@+id/button_Light1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/button_Light1"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/button_Light3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_Light2"
+        android:layout_toEndOf="@+id/button_Light2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/button_Light4"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light2"
+        android:layout_alignStart="@+id/button_Light1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/button_Light5"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light2"
+        android:layout_toEndOf="@+id/button_Light1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/button_Light7"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light4"
+        android:layout_alignStart="@+id/button_Light4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/button_Light8"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light5"
+        android:layout_toEndOf="@+id/button_Light4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/button_Light6"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light3"
+        android:layout_toEndOf="@+id/button_Light2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Manager"
+        android:id="@+id/textView"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="環境モニター"
+        android:id="@+id/textView14"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_above="@+id/button_Light1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    ℃"
+        android:id="@+id/textView_Env_Temp"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    ％"
+        android:id="@+id/textView_Env_Humid"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignBaseline="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignStart="@+id/textView_Env_Temp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="気圧"
+        android:id="@+id/textView15"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/button_Light6"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    hPa"
+        android:id="@+id/textView_Env_Press"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignStart="@+id/textView_Env_Humid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CO2"
+        android:id="@+id/textView23"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/textView21"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="照度"
+        android:id="@+id/textView21"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/button_LightOff"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    PPM"
+        android:id="@+id/textView_Env_CO2"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignBaseline="@+id/textView23"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_alignStart="@+id/textView_Env_Press" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    Lx"
+        android:id="@+id/textView_Env_Lux"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignStart="@+id/textView_Env_Press" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:id="@+id/button_LightOff"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Light6"
+        android:layout_toEndOf="@+id/button_Light8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:id="@+id/button_EnvTestRead"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignStart="@+id/textView23" />
+
+</RelativeLayout>

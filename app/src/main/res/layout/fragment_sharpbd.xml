@@ -1,0 +1,455 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="チャプタ"
+        android:id="@+id/ButtonSharpBDChapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDReserveList"
+        android:layout_alignStart="@+id/ButtonSharpBDRecList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eject"
+        android:id="@+id/ButtonSharpBDEject"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDReserveList"
+        android:layout_toEndOf="@+id/ButtonSharpBDDrive" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/ButtonSharpBDKey2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignBottom="@+id/ButtonSharpBDKey1"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey1"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/ButtonSharpBDKey3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignBottom="@+id/ButtonSharpBDKey2"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey2"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/ButtonSharpBDKey4"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/ButtonSharpBDKey1"
+        android:layout_alignStart="@+id/ButtonSharpBDKey1"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/ButtonSharpBDKey5"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonSharpBDKey4"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey4"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/ButtonSharpBDKey6"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonSharpBDKey5"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey5"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/ButtonSharpBDKey7"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/ButtonSharpBDKey4"
+        android:layout_alignStart="@+id/ButtonSharpBDKey4"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/ButtonSharpBDKey8"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonSharpBDKey7"
+        android:layout_alignStart="@+id/ButtonSharpBDKey5"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/ButtonSharpBDKey9"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonSharpBDKey8"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey8"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:id="@+id/ButtonSharpBDKey11"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonSharpBDKey10"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey10"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/0"
+        android:id="@+id/ButtonSharpBDKey10"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDKey7"
+        android:layout_alignStart="@+id/ButtonSharpBDKey7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDRed"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_red"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDBlue"
+        android:layout_alignBottom="@+id/ButtonSharpBDBlue"
+        android:layout_toEndOf="@+id/ButtonSharpBDBlue" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDGreen"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_green"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDRed"
+        android:layout_alignBottom="@+id/ButtonSharpBDRed"
+        android:layout_toEndOf="@+id/ButtonSharpBDRed" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDYellow"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_yellow"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDGreen"
+        android:layout_alignBottom="@+id/ButtonSharpBDGreen"
+        android:layout_toEndOf="@+id/ButtonSharpBDGreen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDBlue"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_blue"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDBroadcastTD"
+        android:layout_alignStart="@+id/ButtonSharpBDKey10"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地上D"
+        android:id="@+id/ButtonSharpBDBroadcastTD"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDKey11"
+        android:layout_alignStart="@+id/ButtonSharpBDKey10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BS"
+        android:id="@+id/ButtonSharpBDBroadcastBS"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDKey11"
+        android:layout_toEndOf="@+id/ButtonSharpBDBroadcastTD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS"
+        android:id="@+id/ButtonSharpBDBroadcastCS"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDKey12"
+        android:layout_toEndOf="@+id/ButtonSharpBDBroadcastBS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="予約一覧"
+        android:id="@+id/ButtonSharpBDReserveList"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDRecList"
+        android:layout_alignBottom="@+id/ButtonSharpBDRecList"
+        android:layout_toEndOf="@+id/ButtonSharpBDRecList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="録画一覧"
+        android:id="@+id/ButtonSharpBDRecList"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="99dp"
+        android:layout_alignBaseline="@+id/ButtonSharpBDKey3"
+        android:layout_alignBottom="@+id/ButtonSharpBDKey3"
+        android:layout_toEndOf="@+id/ButtonSharpBDEPG" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BD/HDD"
+        android:id="@+id/ButtonSharpBDDrive"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDChapter"
+        android:layout_alignStart="@+id/ButtonSharpBDChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消去"
+        android:id="@+id/ButtonSharpBDDel"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDEject"
+        android:layout_toEndOf="@+id/ButtonSharpBDChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDPlay"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDRew"
+        android:layout_alignBottom="@+id/ButtonSharpBDRew"
+        android:layout_toEndOf="@+id/ButtonSharpBDRew"
+        android:drawableStart="@android:drawable/ic_media_play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDPrevChapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDRew"
+        android:layout_alignStart="@+id/ButtonSharpBDRew"
+        android:drawableStart="@android:drawable/ic_media_previous" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDRew"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_rew"
+        android:layout_below="@+id/ButtonSharpBDDrive"
+        android:layout_alignStart="@+id/ButtonSharpBDDrive" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/ButtonSharpBDKey1"
+            android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp"
+        android:textColor="@color/button_text_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDSkipM10"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDPrevChapter"
+        android:layout_alignStart="@+id/ButtonSharpBDPrevChapter"
+        android:drawableStart="@android:drawable/ic_media_rew"
+        android:text="10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="情報表示"
+        android:id="@+id/ButtonSharpBDInfo"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_above="@+id/ButtonSharpBDFF"
+        android:layout_toEndOf="@+id/ButtonSharpBDEject" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/blu_ray_disc"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/ButtonSharpBDSkip15" />
+
+    <TextView
+        android:text="BD-W500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBottom="@+id/ButtonSharpBDPower"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:id="@+id/ButtonSharpBDKey12"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDKey9"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDFF"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_ff"
+        android:layout_alignBaseline="@+id/ButtonSharpBDPlay"
+        android:layout_alignBottom="@+id/ButtonSharpBDPlay"
+        android:layout_toEndOf="@+id/ButtonSharpBDPlay" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDNexutChapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_next"
+        android:layout_below="@+id/ButtonSharpBDPlay"
+        android:layout_toEndOf="@+id/ButtonSharpBDPlay" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDSkip15"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_ff"
+        android:text="15"
+        android:layout_below="@+id/ButtonSharpBDNexutChapter"
+        android:layout_alignStart="@+id/ButtonSharpBDNexutChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDPower"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_lock_power_off"
+        android:text="電源"
+        android:layout_below="@+id/ButtonSharpBDYellow"
+        android:layout_alignStart="@+id/ButtonSharpBDSkipM10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDPause"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_pause"
+        android:layout_alignBaseline="@+id/ButtonSharpBDPrevChapter"
+        android:layout_alignBottom="@+id/ButtonSharpBDPrevChapter"
+        android:layout_toEndOf="@+id/ButtonSharpBDPrevChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="番組表"
+        android:id="@+id/ButtonSharpBDEPG"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonSharpBDKey12"
+        android:layout_alignBottom="@+id/ButtonSharpBDKey12"
+        android:layout_toEndOf="@+id/ButtonSharpBDKey9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スカパー"
+        android:id="@+id/ButtonSharpBDBroadcastSkyPer"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonSharpBDEPG"
+        android:layout_toEndOf="@+id/ButtonSharpBDBroadcastCS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonSharpBDStop"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:text="■"
+        android:textSize="24sp"
+        android:layout_below="@+id/ButtonSharpBDNexutChapter"
+        android:layout_toEndOf="@+id/ButtonSharpBDPrevChapter" />
+
+</RelativeLayout>

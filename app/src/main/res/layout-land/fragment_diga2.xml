@@ -1,0 +1,481 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="チャプタ"
+        android:id="@+id/ButtonDIGA2Chapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2ReserveList"
+        android:layout_alignStart="@+id/ButtonDIGA2RecList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/ButtonDIGA2Key2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignBottom="@+id/ButtonDIGA2Key1"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key1"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/ButtonDIGA2Key3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignBottom="@+id/ButtonDIGA2Key2"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key2"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/ButtonDIGA2Key4"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/ButtonDIGA2Key1"
+        android:layout_alignStart="@+id/ButtonDIGA2Key1"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/ButtonDIGA2Key5"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonDIGA2Key4"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key4"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/ButtonDIGA2Key6"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonDIGA2Key5"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key5"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/ButtonDIGA2Key7"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_below="@+id/ButtonDIGA2Key4"
+        android:layout_alignStart="@+id/ButtonDIGA2Key4"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/ButtonDIGA2Key8"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonDIGA2Key7"
+        android:layout_alignStart="@+id/ButtonDIGA2Key5"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/ButtonDIGA2Key9"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonDIGA2Key8"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key8"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:id="@+id/ButtonDIGA2Key11"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_alignTop="@+id/ButtonDIGA2Key10"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key10"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/0"
+        android:id="@+id/ButtonDIGA2Key10"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Key7"
+        android:layout_alignStart="@+id/ButtonDIGA2Key7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Red"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_red"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Blue"
+        android:layout_alignBottom="@+id/ButtonDIGA2Blue"
+        android:layout_toEndOf="@+id/ButtonDIGA2Blue" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Green"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_green"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Red"
+        android:layout_alignBottom="@+id/ButtonDIGA2Red"
+        android:layout_toEndOf="@+id/ButtonDIGA2Red" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Yellow"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_yellow"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Green"
+        android:layout_alignBottom="@+id/ButtonDIGA2Green"
+        android:layout_toEndOf="@+id/ButtonDIGA2Green" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Blue"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_color_blue"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2BroadcastTD"
+        android:layout_alignStart="@+id/ButtonDIGA2Key10"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地上D"
+        android:id="@+id/ButtonDIGA2BroadcastTD"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Key11"
+        android:layout_alignStart="@+id/ButtonDIGA2Key10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BS"
+        android:id="@+id/ButtonDIGA2BroadcastBS"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Key11"
+        android:layout_toEndOf="@+id/ButtonDIGA2BroadcastTD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS"
+        android:id="@+id/ButtonDIGA2BroadcastCS"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Key12"
+        android:layout_toEndOf="@+id/ButtonDIGA2BroadcastBS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="予約一覧"
+        android:id="@+id/ButtonDIGA2ReserveList"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2RecList"
+        android:layout_alignBottom="@+id/ButtonDIGA2RecList"
+        android:layout_toEndOf="@+id/ButtonDIGA2RecList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="録画一覧"
+        android:id="@+id/ButtonDIGA2RecList"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="99dp"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Key3"
+        android:layout_alignBottom="@+id/ButtonDIGA2Key3"
+        android:layout_toEndOf="@+id/ButtonDIGA2EPG" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HDD"
+        android:id="@+id/ButtonDIGA2HDD"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Chapter"
+        android:layout_alignStart="@+id/ButtonDIGA2Chapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Play"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Rew"
+        android:layout_alignBottom="@+id/ButtonDIGA2Rew"
+        android:layout_toEndOf="@+id/ButtonDIGA2Rew"
+        android:drawableStart="@android:drawable/ic_media_play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2PrevChapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Rew"
+        android:layout_alignStart="@+id/ButtonDIGA2Rew"
+        android:drawableStart="@android:drawable/ic_media_previous" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/ButtonDIGA2Key1"
+            android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp"
+        android:textColor="@color/button_text_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2SkipM15"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2PrevChapter"
+        android:layout_alignStart="@+id/ButtonDIGA2PrevChapter"
+        android:drawableStart="@android:drawable/ic_media_rew"
+        android:text="15" />
+
+    <TextView
+        android:text="DMR-BXT870"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBottom="@+id/ButtonDIGA2Power"
+        android:layout_toEndOf="@+id/imageView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:id="@+id/ButtonDIGA2Key12"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Key9"
+        android:layout_toEndOf="@+id/ButtonDIGA2Key11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2FF"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_ff"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Play"
+        android:layout_alignBottom="@+id/ButtonDIGA2Play"
+        android:layout_toEndOf="@+id/ButtonDIGA2Play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2NexutChapter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_next"
+        android:layout_below="@+id/ButtonDIGA2Play"
+        android:layout_toEndOf="@+id/ButtonDIGA2Play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Skip30"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_ff"
+        android:text="30"
+        android:layout_below="@+id/ButtonDIGA2NexutChapter"
+        android:layout_alignStart="@+id/ButtonDIGA2NexutChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Pause"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_pause"
+        android:layout_alignBaseline="@+id/ButtonDIGA2PrevChapter"
+        android:layout_alignBottom="@+id/ButtonDIGA2PrevChapter"
+        android:layout_toEndOf="@+id/ButtonDIGA2PrevChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Stop"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:text="■"
+        android:textSize="24sp"
+        android:layout_below="@+id/ButtonDIGA2NexutChapter"
+        android:layout_toEndOf="@+id/ButtonDIGA2PrevChapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Rew"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_media_rew"
+        android:layout_below="@+id/ButtonDIGA2HDD"
+        android:layout_alignStart="@+id/ButtonDIGA2HDD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eject"
+        android:id="@+id/ButtonDIGA2Eject"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2Chapter"
+        android:layout_alignBottom="@+id/ButtonDIGA2Chapter"
+        android:layout_toEndOf="@+id/ButtonDIGA2Chapter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BD"
+        android:id="@+id/ButtonDIGA2BD"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2HDD"
+        android:layout_alignBottom="@+id/ButtonDIGA2HDD"
+        android:layout_toEndOf="@+id/ButtonDIGA2HDD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2Power"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:drawableStart="@android:drawable/ic_lock_power_off"
+        android:text="電源"
+        android:layout_below="@+id/ButtonDIGA2Yellow"
+        android:layout_alignStart="@+id/ButtonDIGA2SkipM15" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/blu_ray_disc"
+        android:layout_alignBottom="@+id/ButtonDIGA2Power"
+        android:layout_toEndOf="@+id/ButtonDIGA2Stop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="情報表示"
+        android:id="@+id/ButtonDIGA2Info"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2ReserveList"
+        android:layout_alignBottom="@+id/ButtonDIGA2ReserveList"
+        android:layout_toEndOf="@+id/ButtonDIGA2ReserveList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消去"
+        android:id="@+id/ButtonDIGA2Del"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Info"
+        android:layout_toEndOf="@+id/ButtonDIGA2ReserveList" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="番組表"
+        android:id="@+id/ButtonDIGA2EPG"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_alignBaseline="@+id/ButtonDIGA2BroadcastCS"
+        android:layout_alignBottom="@+id/ButtonDIGA2BroadcastCS"
+        android:layout_toEndOf="@+id/ButtonDIGA2BroadcastCS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再生設定"
+        android:id="@+id/ButtonDIGA2PlaySettings"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/ButtonDIGA2Del"
+        android:layout_toEndOf="@+id/ButtonDIGA2Play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonDIGA2App"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:text="Appli"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toEndOf="@+id/ButtonDIGA2Power" />
+
+</RelativeLayout>

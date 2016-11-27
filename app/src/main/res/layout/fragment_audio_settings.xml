@@ -1,0 +1,257 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SFC_NAME"
+        android:id="@+id/textView_SFCName"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/abc_text_size_menu_material"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie"
+        android:id="@+id/button_Amp_SFC_Movie"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/textView_SFCName"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SFC"
+        android:id="@+id/textView"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter\ntainment"
+        android:id="@+id/button_Amp_SFC_Enter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_Amp_SFC_Movie"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Movie" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live\nClub"
+        android:id="@+id/button_Amp_SFC_Live"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Amp_SFC_Enter"
+        android:layout_alignBottom="@+id/button_Amp_SFC_Enter"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Enter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classic"
+        android:id="@+id/button_Amp_SFC_Classic"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Amp_SFC_Movie"
+        android:layout_alignStart="@+id/button_Amp_SFC_Movie" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stereo"
+        android:id="@+id/button_Amp_SFC_Stereo"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Amp_SFC_Classic"
+        android:layout_alignBottom="@+id/button_Amp_SFC_Classic"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Movie" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dolby\nDTS"
+        android:id="@+id/button_Amp_SFC_Dolby"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Amp_SFC_Live"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Enter" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Straight"
+        android:id="@+id/button_Amp_Straight"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Amp_SFC_Classic"
+        android:layout_alignStart="@+id/button_Amp_SFC_Classic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pure\nDirect"
+        android:id="@+id/button_Amp_Direct"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Amp_SFC_Classic"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Classic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Woofer"
+        android:id="@+id/textView13"
+        android:focusable="false"
+        android:textColor="@color/button_text_color"
+        android:layout_marginStart="60dp"
+        android:layout_alignTop="@+id/textView_SFCName"
+        android:layout_toEndOf="@+id/button_Amp_SFC_Live" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/button_Au_Woofer_PS1"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignTop="@+id/button_Amp_SFC_Live"
+        android:layout_alignStart="@+id/textView13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/button_Au_Woofer_PS2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Au_Woofer_PS1"
+        android:layout_alignBottom="@+id/button_Au_Woofer_PS1"
+        android:layout_toEndOf="@+id/button_Au_Woofer_PS1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/button_Au_Woofer_PS4"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Au_Woofer_PS1"
+        android:layout_alignStart="@+id/button_Au_Woofer_PS1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/button_Au_Woofer_PS3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Au_Woofer_PS2"
+        android:layout_alignBottom="@+id/button_Au_Woofer_PS2"
+        android:layout_toEndOf="@+id/button_Au_Woofer_PS2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/button_Au_Woofer_PS5"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Au_Woofer_PS4"
+        android:layout_alignBottom="@+id/button_Au_Woofer_PS4"
+        android:layout_toEndOf="@+id/button_Au_Woofer_PS1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/button_Au_Woofer_PS6"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="72dip"
+        android:minHeight="52dp"
+        android:layout_below="@+id/button_Au_Woofer_PS3"
+        android:layout_toEndOf="@+id/button_Au_Woofer_PS5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute"
+        android:id="@+id/button_Au_Mute"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/button_Amp_Straight"
+        android:layout_alignStart="@+id/button_Amp_Straight" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appli"
+        android:id="@+id/button_Yamaha_App"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/button_usual"
+        android:textColor="@color/button_text_color"
+        android:minWidth="104dp"
+        android:minHeight="52dp"
+        android:layout_alignBaseline="@+id/button_Au_Mute"
+        android:layout_alignBottom="@+id/button_Au_Mute"
+        android:layout_toStartOf="@+id/textView13" />
+
+</RelativeLayout>
