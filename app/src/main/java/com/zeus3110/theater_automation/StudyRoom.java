@@ -4,6 +4,8 @@ import com.zeus3110.theater_automation.Equipment.IPAVC;
 import com.zeus3110.theater_automation.Equipment.IRKit;
 import com.zeus3110.theater_automation.Equipment.IRKitEquipment;
 
+
+// Study Room Equipment Signal Class
 public class StudyRoom {
     static IRKit IRKitStudy;
     static IRKitEquipment MaruzenLight;
