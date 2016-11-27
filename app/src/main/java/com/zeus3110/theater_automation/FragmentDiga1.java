@@ -16,11 +16,7 @@ import com.zeus3110.theater_automation.Equipment.CommandAsyncTask;
 import com.zeus3110.theater_automation.Equipment.IPCommand;
 import com.zeus3110.theater_automation.Equipment.IRCommand;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link FragmentDiga1#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class FragmentDiga1 extends Fragment implements OnClickListener {
     private static final String ARG_SECTION_NUMBER = "section_number";
 
